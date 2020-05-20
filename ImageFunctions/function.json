@@ -1,0 +1,14 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.2",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "direction": "in",
+      "name": "eventGridEvent"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/ImageFunctions.dll",
+  "entryPoint": "ImageFunctions.Thumbnail.Run"
+}
